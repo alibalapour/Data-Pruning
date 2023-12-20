@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch~=1.12.1+cu113
+torchvision~=0.13.1+cu113
+torchaudio
+
+einops
+timm~=0.6.7
+kmeans-pytorch
+numpy~=1.23.3
+matplotlib~=3.6.0
+scipy
+tqdm~=4.64.1
+PIL
+seaborn~=0.12.0
