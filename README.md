@@ -1,5 +1,5 @@
-# DataPruning
-This repository is for a data pruning project based on "Beyond neural scaling laws: beating power law scaling via data pruning". In this repository, we have provided a simple but effective tool to find and separate hard and easy samples in a data corpus. By doing so, we can easily select samples that are suitable for our tasks. 
+# Data Pruning
+This repository is for a data pruning project based on !["Beyond neural scaling laws: beating power law scaling via data pruning"](https://arxiv.org/abs/2206.14486). In this repository, we have provided a simple but effective tool to find and separate hard and easy samples in a data corpus. By doing so, we can easily select samples that are suitable for our tasks. 
 
 ## Description
 To use this tool consider two main directories for pruning: 1. corpus - 2. target. The corpus directory consists of images that we want to select for training. A target directory is a directory that we prune data based on it. For instance, assume we have 100K images and we want to select the 1% percentile of the hardest images. To define the hardness metric, we need to have a target dataset. This dataset has about 500 images per class. So, we can use our tool to find the hardest images based on our defined dataset.
